@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_search_default"
+        android:inputType="textNoSuggestions"
+        android:key="@string/settings_search_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_search_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/articles_limit"
+        android:inputType="number"
+        android:key="@string/articles_k"
+        android:selectAllOnFocus="true"
+        android:title="@string/articles" />
+
+    <ListPreference
+        android:defaultValue="@string/filter_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/filter_by_key"
+        android:title="@string/filter" />
+
+</PreferenceScreen>

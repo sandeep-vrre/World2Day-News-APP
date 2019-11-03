@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">World2Day News</string>
+
+    <!-- Response messages for no network or no data available  -->
+    <string name="no_internet_connection">Error, No Internet</string>
+    <string name="no_news">Error, No Internet</string>
+
+    <string name="read">Read More …</string>
+
+    <string name="settings_menu">Menu</string>
+    <string name="settings">Refine News</string>
+
+    <!-- no of articles - limit -->
+    <string name="articles">Articles Limit</string>
+    <string name="articles_k">no.of articles</string>
+    <string name="articles_limit">12</string>
+
+    <!-- Filter news -->
+    <string name="filter">Filter</string>
+    <string name="filter_by_key" translatable="false">filter_by</string>
+    <string name="filter_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- filter news by most viewed -->
+    <string name="settings_order_by_relevance_label">Most Viewed</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- filter news by latest -->
+    <string name="settings_order_by_newest_label">Latest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- search based on keywords -->
+    <string name="settings_search_label">Search</string>
+    <string name="settings_search_key" translatable="false">keyword</string>
+    <string name="settings_search_default" translatable="false"> </string>
+
+</resources>
